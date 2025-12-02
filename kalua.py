@@ -383,15 +383,7 @@ def run_flask():
 # Main flow
 # ---------------------------
 def wish_me():
-    speak("Jai Shree Ram!")
-    hour = datetime.datetime.now().hour
-    if 0 <= hour < 12:
-        speak("Su Prabhat!")
-    elif 12 <= hour < 18:
-        speak("Radhe Radhe!")
-    else:
-        speak("Jai Shree Krishna!")
-    speak("I am Kalua. Please tell me how may I help you.")
+    speak("Hello sir! I am Kalua. Please tell me how may I help you.")
 
 def voice_loop():
     wish_me()
