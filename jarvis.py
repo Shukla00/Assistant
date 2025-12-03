@@ -115,14 +115,14 @@ if __name__ == "__main__":
             speak(f"Sir, the time is {strTime}")
 
         elif 'open code' in query:
-            codePath = "C:/Users/91860/AppData/Local/Programs/Python/Python313/python.exe"
+            codePath = "C:/Users/AppData/Local/Programs/Python/Python313/python.exe"
             os.startfile(codePath)
 
         elif 'email to vinayak' in query:
             try:
                 speak("What should I say?")
                 content = takeCommand()
-                to = "vinayaksh2408@gmail.com"    
+                to = "youremail@gmail.com"    
                 sendEmail(to, content)
                 speak("Email has been sent!")
             except Exception as e:
