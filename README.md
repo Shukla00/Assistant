@@ -67,7 +67,7 @@ to control your assistant.
 ### **1. Clone or download the project**
 
 ```
-git clone https://github.com/Assistant
+git clone https://github.com/Shukla00/Assistant.git
 cd Assistant
 ```
 
@@ -94,7 +94,7 @@ sudo apt install python3-pyaudio
 
 # ⚙️ Environment Setup
 
-Create a file named **`.env`** in the same folder as `assistant.py`.
+Create a file named **`.env`** in the same folder as `kalua.py`.
 
 ```
 RUN_FLASK=1
@@ -133,7 +133,7 @@ $env:RUN_FLASK=1; python kalua.py or jarvis.py
 Linux/macOS:
 
 ```
-RUN_FLASK=1 python assistant.py
+RUN_FLASK=1 python kalua.py
 ```
 
 The API will be available at:
@@ -172,7 +172,7 @@ http://localhost:5000/api/command
 ```
 kalua-assistant/
 │
-├── assistant.py      # Main assistant logic
+├── kalua.py      # Main assistant logic
 ├── README.md         # Documentation
 └── .env              # Environment variables (you create this)
 ```
